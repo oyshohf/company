@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #f4f4f4;
+        }
+        /* Navigation Bar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .navbar a {
+            text-decoration: none;
+            color: black;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+        .logo {
+            font-weight: bold;
+            color: blue;
+            font-size: 20px;
+        }
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') center/cover no-repeat;
+            color: black;
+            padding: 100px 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 400px;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        .hero p {
+            letter-spacing: 3px;
+            color: gray;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        /* Content Section */
+        .content {
+            display: flex;
+            padding: 40px;
+            background: white;
+        }
+        .testimonial {
+            width: 50%;
+            padding: 20px;
+        }
+        .testimonial p {
+            background: #2A7DE1;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        /* Team Section */
+        .team {
+            width: 50%;
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+        }
+        .team-member {
+            text-align: center;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 150px;
+        }
+        .team-member img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .team-member h4 {
+            color: blue;
+            margin-top: 10px;
+            font-size: 16px;
+        }
+        .team-member p {
+            font-size: 14px;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <div class="navbar">
+        <div class="logo">Company</div>
+        <div>
+            <a href="#">Home</a>
+            <a href="#">Our Work</a>
+            <a href="#">Contacts</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <p>THAT IS RIGHT</p>
+        <h1>We make great things..</h1>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+        <!-- Team Section -->
+        <div class="team">
+            <div class="team-member">
+                <img src="https://source.unsplash.com/100x100/?man" alt="Person">
+                <h4>Damn Daniel</h4>
+                <p>UX designer</p>
+            </div>
+            <div class="team-member">
+                <img src="https://source.unsplash.com/100x100/?woman" alt="Person">
+                <h4>Damn Daniel</h4>
+                <p>UX designer</p>
+            </div>
+        </div>
+        <!-- Testimonial -->
+        <div class="testimonial">
+            <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut magna tellus sit fermentum pellentesque neque. Nunc, amet, et mauris et eget odio.”</p>
+        </div>
+    </div>
+
+</body>
+</html>
